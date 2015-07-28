@@ -1,0 +1,1 @@
+<?phpecho "<form method=\"post\" action=\"/mail?redirect=$_SERVER[REQUEST_URI]\"><table><tr><td>Тема</td><td><input type=\"text\" name=\"subject\" maxlength=\"200\"></td></tr><tr><td>Текст</td><td><textarea name=\"text\"></textarea></td></tr></table><input type=\"hidden\" name=\"to\" value=\"$user_to\"><input type=\"submit\"></form>";

@@ -1,0 +1,274 @@
+
+.header {
+	background-image:url(../images/header_bg.png);
+	width:100%;
+	height:118px;
+	margin:auto;}
+.menu_links {
+	color:#7c858b;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 14px;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+	text-decoration:none;
+	padding-right:40px;
+}
+a:hover.menu_links {color:#666;}
+img {border:0px;}
+
+.seacrh_type
+{
+	background:url(../images/search_bg.png) no-repeat;
+	border:none;
+	width:260px;
+	height:25px;
+	color:#CCC;
+	text-align:justify;
+	font-family: sans-serif;
+	font-size:12px;
+	}
+#search_sort {
+	margin-left:820px;
+	margin-top:4px;
+
+}
+#search_button {
+	position:absolute;
+	top:-6px;
+	left: 880px;
+	width:20px;
+}
+#search_form{
+	position:absolute;
+	top:4px;
+	left:540px;
+}
+#header_conteiner {
+	width:1000px;
+	height:82px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo {
+	margin-left: 21px;
+	width:280px;
+	height:81px;
+}
+#login_conteiner {
+	position:relative;
+	left:775px;
+	top:-80px;
+	width:230px;
+	height:81px;
+	font-size:11px;
+	color:#FFF;
+}
+#login_remember{
+	width:230px;
+	height:27px;
+	margin-top:3px;
+}
+#pass_enter{
+	width:230px;
+	height:27px;
+	margin-top:3px;
+}
+#Enter_button {
+	width:80px;
+	color:#333;
+}
+#remember_restore {
+	width:230px;
+	height:20px;
+	margin-top:3px;
+}
+#remember_restore a {
+	font-size:11px;
+	color:#FFF;
+	margin-left:5px;
+	margin-right:10px;
+}
+#login_pass_input {
+	background:url(../images/login_input.png) no-repeat;
+	width:125px;
+	height:26px;
+	border:none;
+	font-size:13px;
+	color:#999;
+	text-align:center;
+}
+
+#selector {
+	background:url(../images/selector_bg.png) no-repeat;
+	width:100px;
+	height:30px;
+}
+
+.div_menu {
+	background:url(../images/menu_bg2.png) no-repeat ;
+	width:1006px;
+	height:35px;
+	margin-top:-35px;
+	position:absolute;
+}
+#links {
+	position:absolute;
+	top:7px;
+}
+#central {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#search_button {
+	top:3px;
+	width:28px;
+	height:28px;
+	left:960px;
+}
+
+#content {/*
+	width:1012px;
+	height:1712px;*/
+	background-color:#999;
+	margin:0px -3px;
+	background:url(../images/content_bg.png);
+	background-size:cover;
+}
+.footer_links {
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.footer_low {
+	color:#d6d5d5;
+	text-decoration:none;
+	font-size:11px;
+	vertical-align:top;
+}
+a:hover.footer_links {color:#CCC;}
+a:hover.footer_low {color:#FFF;}
+#cont_block1 {
+	width:1000px;
+	margin-left:23px;
+	margin-right:auto;
+	margin-top:34px;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:200;
+}
+#video_box {
+	width:773px;
+	height:170px;
+	margin-left:0px;
+	margin-right:775px;
+	margin-top:-10px;
+}
+.video_name {
+	font-size:12px;
+	color:#007189;
+	font-weight:600;
+	text-decoration:none;
+}
+a:hover.video_name {color:#029fc0;}
+#weather {
+	margin-top:-65px;
+	margin-left:22px;
+	width:185px;
+}
+.small_text {
+	 vertical-align:top;
+	 letter-spacing: -0.01em;
+}
+#weather_days {
+	margin-top:-70px;
+	margin-left:62px;
+}
+.music_albom_box {
+	width:92px;
+	height:150px;
+}
+.video_conteiner{
+	width:177px;
+	height:176px;
+	font-size:11px;
+	color:#808080;
+}
+.user_name {
+	color:#007189;
+	text-decoration:none;
+}
+#info_content {
+	width:185px;
+	height:187px;
+	margin:-150px 800px;
+}
+.time_text {
+	font-size:12px;
+	color:#007189;
+	font-weight:bold;
+}
+#baner {
+	width:184px;
+	height:315px;
+	margin-top:181px;
+	margin-left:800px;
+}
+#music_box {
+	width:326px;
+	height:318px;
+	margin-top:0px;
+	margin-left:23px;
+}
+#file_box {
+	width:407px;
+	height:318px;
+
+}
+#file_informer {
+	width:407px;
+	height:47px;
+}
+.low_t {
+	font-family: Arial;
+	color:#808080;
+	font-size:11px;
+}
+.file_name {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	vertical-align:top;
+}
+a:hover.file_name {color:#029fc0;}
+.albom_name {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#007189;
+	font-weight:bold;
+	text-decoration:none;
+}
+#rss {
+	margin-top:-50px;
+	margin-left:920px;
+	}
+a:hover.albom_name {color:#029fc0;}
+.artist {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#cf2001;
+}
+#footer {
+	width:1000px;
+	height:72px;
+	background:url(../images/footer_bg.png);
+	margin-top:-10px;
+	margin-left:3px;
+}

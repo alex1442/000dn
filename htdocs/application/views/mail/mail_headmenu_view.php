@@ -1,0 +1,1 @@
+<?phpecho '<input type="submit" name="delete" value="Удалить">';if($_SERVER['REQUEST_URI']!=="/mail/sent"){echo '<input type="submit" name="markread" value="Прочитано">';}?>

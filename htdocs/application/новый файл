@@ -1,0 +1,9 @@
+$bitrate = floor((($movie->getFrameWidth() * $movie->getFrameHeight())/500+50) / 1) . "k";
+$abitrate="64k";
+if($movie->getAudioBitRate()<65536)
+{
+$abitrate = (floor($movie->getAudioBitRate()/1024)/1) . "k";
+}
+$handle=exec("ffmpeg -i /home/alex1442/1.mp4 -f webm -y /dev/null 2>>/home/alex1442/Документы/www/000.dn/htdocs/video/1.log");
+
+$command = "ffmpeg -i $input -f webm -ab $abitrate -ac 1 -y -b $bitrate  /home/alex1442/Документы/www/000.dn/htdocs/video/$dirname/$dirname.webm";

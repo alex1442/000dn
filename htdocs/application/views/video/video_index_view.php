@@ -1,0 +1,22 @@
+<?php
+$this->load->view('index_page/index_head_view');
+	echo "<table border=1>";
+	foreach ($videos as $video)
+	{
+$duration_obj= new DateTime();
+$duration_obj->setTime(0,0,round($video['duration']));
+$duration_str=$duration_obj->format('H:i:s');
+    	$video_data=array(
+		'id'=>$video['id'],
+		'user_login'=>$video['user_login'],
+		'filename'=>$video['filename'],
+		'duration'=>$duration_str,
+		'description'=>$video['description'],
+		'date_upload'=>$video['date_upload'],
+		'view_count'=>$video['view_count'],
+		);
+		$this->load->view('video/video_preview_view',$video_data);
+	}
+	echo "</table>";
+$this->load->view('index_page/index_footer_view');
+?>

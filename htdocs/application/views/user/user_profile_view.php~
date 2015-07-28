@@ -1,0 +1,39 @@
+<?php
+$this->load->view('/index_page/index_head_view');
+$this->load->view('infobox_view');
+if (!isset($id_user))
+{
+echo "Такого пользователя не существует!";
+}
+else
+{
+echo "<table border=\"1\">
+<tr><td>Имя</td><td>$name</td></tr>
+<tr><td>Фамилия</td><td>$surname</td></tr>
+<tr><td>Пол</td><td>$gender</td></tr>
+<tr><td>День рождения</td><td>$birthday $age</td></tr>
+<tr><td>Город</td><td>$location</td></tr>
+<tr><td>О себе</td><td>$about</td></tr>
+</table><br>
+<a href=\"/files/search?q=&audio=1&video=1&img=1&doc=1&archive=1&other=1&user=$login\">Файлы загруженные $login</a><br>
+<a href=\"/video/search?user=$login\">Видео загруженные $login</a>
+<script type=\"text/javascript\">
+function displ(nnn) {
+if (document.getElementById(nnn).style.display == 'none')
+{
+document.getElementById(nnn).style.display = 'block'}
+else 
+{
+document.getElementById(nnn).style.display = 'none'}
+}
+</script>
+<br>
+<a href=\"javascript: displ('var')\">Послать сообщение пользователю</a>
+<div id=\"var\" style=\"display: none;\">
+";
+$data['user_to']=$login;
+$this->load->view("mail/mail_box_view",$data);
+echo "</div>";
+}
+$this->load->view('/index_page/index_footer_view');
+?>

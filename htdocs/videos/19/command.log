@@ -1,0 +1,1 @@
+/usr/local/bin/ffmpeg -i /home/alex1442/Документы/www/000.dn/htdocs/videos/19/Принтер.mp4 -f webm -ab 64k -ac 1 -y -b 100k /home/alex1442/Документы/www/000.dn/htdocs/videos/19/video.webm 2>>/home/alex1442/Документы/www/000.dn/htdocs/videos/19/processing.log

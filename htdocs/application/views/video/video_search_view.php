@@ -1,0 +1,7 @@
+<form action="/video/search" method="get">
+<table>
+<tr><td>Поиск видео</td><td><input type="text" name="q" value="<?php echo htmlspecialchars($this->input->get('q'));?>"></td></tr>
+<tr><td>Видео пользователя</td><td><input type="text" name="user" value="<?php echo htmlspecialchars($this->input->get('user'));?>"></td></tr>
+</table>
+<input type="submit">
+</form>

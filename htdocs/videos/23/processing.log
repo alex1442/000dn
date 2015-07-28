@@ -1,0 +1,30 @@
+FFmpeg version 0.6.5, Copyright (c) 2000-2010 the FFmpeg developers
+  built on Feb  8 2012 21:15:52 with gcc 4.5.2
+  configuration: --enable-gpl --enable-libmp3lame --enable-libxvid --enable-libfaac --enable-nonfree --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-bzlib --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-nonfree --enable-version3 --enable-libx264
+  libavutil     50.15. 1 / 50.15. 1
+  libavcodec    52.72. 2 / 52.72. 2
+  libavformat   52.64. 2 / 52.64. 2
+  libavdevice   52. 2. 0 / 52. 2. 0
+  libswscale     0.11. 0 /  0.11. 0
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/alex1442/Документы/www/000.dn/htdocs/videos/23/мусорщик.3gp':
+  Metadata:
+    major_brand     : 3gp4
+    minor_version   : 512
+    compatible_brands: 3gp4
+    encoder         : 3GP_Converter051103 www.nurs.or.jp/~calcium FFmpeg2.40b((49<<16)+(1<<8)+0)
+    encoder-jpn     : 3GP_Converter051103 www.nurs.or.jp/~calcium FFmpeg2.40b((49<<16)+(1<<8)+0)
+  Duration: 00:00:54.80, start: 0.000000, bitrate: 111 kb/s
+    Stream #0.0(eng): Video: h263, yuv420p, 176x144 [PAR 12:11 DAR 4:3], 95 kb/s, 15 fps, 29.97 tbr, 90k tbn, 29.97 tbc
+    Stream #0.1(eng): Audio: amrnb, 8000 Hz, 1 channels, flt, 12 kb/s
+[libvpx @ 0x2cfb260]v0.9.6
+Output #0, webm, to '/home/alex1442/Документы/www/000.dn/htdocs/videos/23/video.webm':
+  Metadata:
+    encoder         : Lavf52.64.2
+    Stream #0.0(eng): Video: libvpx, yuv420p, 176x144 [PAR 12:11 DAR 4:3], q=2-31, 100 kb/s, 1k tbn, 29.97 tbc
+    Stream #0.1(eng): Audio: libvorbis, 8000 Hz, 1 channels, s16, 12 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+  Stream #0.1 -> #0.1
+Press [q] to stop encoding
+frame=   77 fps=  0 q=0.0 size=      67kB time=4.99 bitrate= 109.5kbits/s    frame=  142 fps=138 q=0.0 size=     134kB time=9.28 bitrate= 118.6kbits/s    frame=  210 fps=137 q=0.0 size=     180kB time=13.82 bitrate= 106.6kbits/s    frame=  277 fps=136 q=0.0 size=     250kB time=18.37 bitrate= 111.3kbits/s    frame=  346 fps=136 q=0.0 size=     312kB time=22.88 bitrate= 111.8kbits/s    frame=  410 fps=135 q=0.0 size=     357kB time=27.20 bitrate= 107.6kbits/s    frame=  472 fps=133 q=0.0 size=     433kB time=31.33 bitrate= 113.2kbits/s    frame=  539 fps=133 q=0.0 size=     509kB time=35.81 bitrate= 116.4kbits/s    frame=  610 fps=134 q=0.0 size=     580kB time=40.48 bitrate= 117.5kbits/s    frame=  671 fps=133 q=0.0 size=     644kB time=44.58 bitrate= 118.4kbits/s    frame=  723 fps=130 q=0.0 size=     696kB time=48.00 bitrate= 118.8kbits/s    frame=  782 fps=129 q=0.0 size=     739kB time=51.97 bitrate= 116.5kbits/s    frame=  822 fps=130 q=0.0 Lsize=     798kB time=54.66 bitrate= 119.6kbits/s    
+video:693kB audio:85kB global headers:2kB muxing overhead 2.257455%

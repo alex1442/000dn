@@ -1,0 +1,28 @@
+FFmpeg version 0.6.5, Copyright (c) 2000-2010 the FFmpeg developers
+  built on Feb  8 2012 21:15:52 with gcc 4.5.2
+  configuration: --enable-gpl --enable-libmp3lame --enable-libxvid --enable-libfaac --enable-nonfree --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-bzlib --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-nonfree --enable-version3 --enable-libx264
+  libavutil     50.15. 1 / 50.15. 1
+  libavcodec    52.72. 2 / 52.72. 2
+  libavformat   52.64. 2 / 52.64. 2
+  libavdevice   52. 2. 0 / 52. 2. 0
+  libswscale     0.11. 0 /  0.11. 0
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/alex1442/Документы/www/000.dn/htdocs/videos/19/Принтер.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp423gp5isom
+  Duration: 00:00:29.71, start: 0.000000, bitrate: 196 kb/s
+    Stream #0.0(eng): Audio: aac, 44100 Hz, stereo, s16, 96 kb/s
+    Stream #0.1(eng): Video: mpeg4, yuv420p, 176x144 [PAR 1:1 DAR 11:9], 95 kb/s, 15.15 fps, 15 tbr, 1k tbn, 15 tbc
+[libvpx @ 0x1c88b20]v0.9.6
+Output #0, webm, to '/home/alex1442/Документы/www/000.dn/htdocs/videos/19/video.webm':
+  Metadata:
+    encoder         : Lavf52.64.2
+    Stream #0.0(eng): Video: libvpx, yuv420p, 176x144 [PAR 1:1 DAR 11:9], q=2-31, 100 kb/s, 1k tbn, 15 tbc
+    Stream #0.1(eng): Audio: libvorbis, 44100 Hz, 1 channels, s16, 64 kb/s
+Stream mapping:
+  Stream #0.1 -> #0.0
+  Stream #0.0 -> #0.1
+Press [q] to stop encoding
+frame=   33 fps=  0 q=0.0 size=      36kB time=2.12 bitrate= 137.5kbits/s    frame=   68 fps= 68 q=0.0 size=     100kB time=4.52 bitrate= 180.2kbits/s dup=0 drop=1    frame=  102 fps= 68 q=0.0 size=     145kB time=6.83 bitrate= 174.2kbits/s dup=0 drop=1    frame=  137 fps= 68 q=0.0 size=     177kB time=9.14 bitrate= 158.8kbits/s dup=0 drop=1    frame=  172 fps= 69 q=0.0 size=     225kB time=11.53 bitrate= 159.7kbits/s dup=0 drop=2    frame=  209 fps= 69 q=0.0 size=     289kB time=13.98 bitrate= 169.2kbits/s dup=0 drop=2    frame=  246 fps= 70 q=0.0 size=     326kB time=16.47 bitrate= 162.1kbits/s dup=0 drop=2    frame=  281 fps= 70 q=0.0 size=     390kB time=18.80 bitrate= 169.9kbits/s dup=0 drop=3    frame=  313 fps= 69 q=0.0 size=     437kB time=20.93 bitrate= 171.1kbits/s dup=0 drop=3    frame=  348 fps= 69 q=0.0 size=     501kB time=23.27 bitrate= 176.5kbits/s dup=0 drop=3    frame=  384 fps= 69 q=0.0 size=     549kB time=25.67 bitrate= 175.2kbits/s dup=0 drop=4    frame=  429 fps= 71 q=0.0 size=     613kB time=28.67 bitrate= 175.1kbits/s dup=0 drop=4    frame=  446 fps= 72 q=0.0 Lsize=     633kB time=29.80 bitrate= 174.1kbits/s dup=0 drop=4    
+video:379kB audio:235kB global headers:3kB muxing overhead 2.633816%

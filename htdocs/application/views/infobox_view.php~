@@ -1,0 +1,13 @@
+<?php
+print_r($this->session->flashdata('info'));
+if ($this->session->flashdata('info'))
+{
+    echo 6;
+$messages=json_decode($this->session->flashdata('info'));
+}
+if(isset($messages)){
+foreach ($messages as $message)
+{
+echo $message."<br>";
+}}
+?>

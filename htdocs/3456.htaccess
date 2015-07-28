@@ -1,0 +1,11 @@
+DirectoryIndex index.html index.htm index.php
+AddDefaultCharset utf-8
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|images|robots\.txt|photos|css|js|favicon.ico|videos)
+#RewriteRule ^(.*)$ /index.php/$1 [L]
+php_flag display_errors On
+php_value upload_max_filesize 5120m
+php_value post_max_size 5120m
+php_value max_execution_time 2000
+php_value max_input_time 2000
+
